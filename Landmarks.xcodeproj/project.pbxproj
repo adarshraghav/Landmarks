@@ -13,6 +13,8 @@
 		EFE8E1B32643A24100EC2C19 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE8E1B22643A24100EC2C19 /* Preview Assets.xcassets */; };
 		EFE8E1BC2643D8F300EC2C19 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE8E1BB2643D8F300EC2C19 /* CircleImage.swift */; };
 		EFE8E1BF2643D9EF00EC2C19 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE8E1BE2643D9EF00EC2C19 /* MapView.swift */; };
+		EFE8E1DF2643EAB100EC2C19 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = EFE8E1DE2643EAB100EC2C19 /* landmarkData.json */; };
+		EFE8E1E62643EB0C00EC2C19 /* Landmarks.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE8E1E52643EB0C00EC2C19 /* Landmarks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EFE8E1B42643A24100EC2C19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EFE8E1BB2643D8F300EC2C19 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		EFE8E1BE2643D9EF00EC2C19 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		EFE8E1DE2643EAB100EC2C19 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		EFE8E1E52643EB0C00EC2C19 /* Landmarks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmarks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				EFE8E1AB2643A24000EC2C19 /* LandmarksApp.swift */,
 				EFE8E1AD2643A24000EC2C19 /* ContentView.swift */,
+				EFE8E1E52643EB0C00EC2C19 /* Landmarks.swift */,
 				EFE8E1AF2643A24100EC2C19 /* Assets.xcassets */,
+				EFE8E1DE2643EAB100EC2C19 /* landmarkData.json */,
 				EFE8E1BE2643D9EF00EC2C19 /* MapView.swift */,
 				EFE8E1BB2643D8F300EC2C19 /* CircleImage.swift */,
 				EFE8E1B42643A24100EC2C19 /* Info.plist */,
@@ -134,6 +140,7 @@
 			files = (
 				EFE8E1B32643A24100EC2C19 /* Preview Assets.xcassets in Resources */,
 				EFE8E1B02643A24100EC2C19 /* Assets.xcassets in Resources */,
+				EFE8E1DF2643EAB100EC2C19 /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,6 +154,7 @@
 				EFE8E1AE2643A24000EC2C19 /* ContentView.swift in Sources */,
 				EFE8E1BF2643D9EF00EC2C19 /* MapView.swift in Sources */,
 				EFE8E1AC2643A24000EC2C19 /* LandmarksApp.swift in Sources */,
+				EFE8E1E62643EB0C00EC2C19 /* Landmarks.swift in Sources */,
 				EFE8E1BC2643D8F300EC2C19 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
